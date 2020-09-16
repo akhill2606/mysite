@@ -37,4 +37,4 @@ def vote(request, question_id):
         # user hits the Back button.
         return HttpResponseRedirect(reverse('polls:results', args=(question.id,)))
 def owner(request):
-    return HttpResponse('Hello c678aec6 is HERE')
+    return HttpResponse('Hello d8012652 IS HERE')
