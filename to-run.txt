@@ -1,0 +1,3 @@
+To run this basic django project use:
+python manage.py runserver 
+and your website will be running on your local host.
