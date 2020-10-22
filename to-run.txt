@@ -1,3 +1,5 @@
-To run this basic django project use:
-python manage.py runserver 
-and your website will be running on your local host.
+install python3 and install python3
+also, install git
+run, git clone and cd into the folder
+and then run, python3 manage.py migrate
+and then, python3 manage.py runserver
