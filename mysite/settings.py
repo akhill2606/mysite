@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'social_django',  
     'home.apps.HomeConfig', 
     'ads.apps.AdsConfig',
-    'unesco.apps.UnescoConfig',
+    #'unesco.apps.UnescoConfig',
 ]
 
 # When we get to crispy forms :)
