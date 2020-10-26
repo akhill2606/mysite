@@ -1,0 +1,14 @@
+{% extends "base_bootstrap.html" %}
+<head><meta name="dj4e" content="d80126524c1e9641333502c664fc6ca1"> 
+</head>
+{% block content %}
+  <form action="" method="post">
+    {% csrf_token %}
+
+    {% if  breed_count = 0 %}
+      <a href="{% url 'cats:breed_form' %}">Add a cat</a>
+    {% else %}
+      <a href="{% url 'cats:cats_list' %}">go go go</a>
+    {% endif %}
+  </form>
+{% endblock %}
