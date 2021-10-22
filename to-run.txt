@@ -3,3 +3,5 @@ also, install git
 run, git clone and cd into the folder
 and then run, python3 manage.py migrate
 and then, python3 manage.py runserver
+
+these changes are MANDATORY. PLEASE DO FOLLOW THEM
