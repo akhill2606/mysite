@@ -4,7 +4,7 @@ from django.core.validators import MinLengthValidator
 class Breed(models.Model):
     name = models.CharField(
             max_length=200,
-            validators=[MinLengthValidator(2, "Breed must be greater than 3 character")]
+            validators=[MinLengthValidator(2, "Breed must be greater than 2 character")]
     )
 
     def __str__(self):
